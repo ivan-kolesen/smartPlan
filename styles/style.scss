@@ -1,0 +1,20 @@
+$color-background-header: #000;
+$color-text-header: #FFF;
+
+header {
+  background-color: $color-background-header;
+
+  .logo{
+    color: $color-text-header;
+    font-size: 26px;
+    line-height: 32px;
+    padding: 26px 0;
+
+    span{
+      font-size: 36px;
+      background: linear-gradient(140deg, #00b7c1 30%, #d5df27 60%, #3ab248);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
