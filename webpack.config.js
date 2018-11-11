@@ -5,6 +5,15 @@ module.exports = {
     filename: "boundle.js"
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: ["style-loader", "css-loader", "sass-loader"]
+      }
+    ]
+  },
+
   watch: true,
 
   watchOptions: {
