@@ -1,0 +1,25 @@
+{
+  "name": "smartPlan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivan-kolesen/smartPlan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivan-kolesen/smartPlan/issues"
+  },
+  "homepage": "https://github.com/ivan-kolesen/smartPlan#readme",
+  "devDependencies": {
+    "webpack": "^4.25.1"
+  }
+}
