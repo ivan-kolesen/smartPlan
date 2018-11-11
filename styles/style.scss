@@ -1,5 +1,11 @@
+@import "./fonts";
+
 $color-background-header: #000;
 $color-text-header: #FFF;
+
+*{
+  font-family: Philosopher;
+}
 
 header {
   background-color: $color-background-header;
@@ -7,11 +13,12 @@ header {
   .logo{
     color: $color-text-header;
     font-size: 26px;
-    line-height: 32px;
+    line-height: 28px;
     padding: 26px 0;
 
     span{
       font-size: 36px;
+      font-weight: bold;
       background: linear-gradient(140deg, #00b7c1 30%, #d5df27 60%, #3ab248);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
