@@ -8,6 +8,15 @@ body{
   font-family: Philosopher;
 }
 
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  height: 100%;
+  margin: auto;
+  padding: 10px 0;
+}
+
 header {
   background-color: $color-background-header;
   height: 112px;
@@ -17,6 +26,7 @@ header {
     font-size: 26px;
     line-height: 28px;
     padding: 26px 0;
+    width: 25%;
 
     span{
       font-size: 36px;
@@ -28,6 +38,77 @@ header {
   }
 }
 
-.todos{
+main{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.w-40{
+  width: 40%;
+}
+
+.w-60{
+  width: 60%;
+}
+
+.search-settings{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.input-search{
+  width: 45%;
+  padding: 5px;
+}
+
+.select-category{
+  width: 45%;
+}
+
+.todo-items{
+  width: 100%;
+  flex-grow: 1;
+  padding-top: 15px;
   overflow: scroll;
+}
+
+.todo-item{
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-item__info{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.info-name{
+  text-align: center;
+}
+
+.info-category{
+  text-align: center;
+}
+
+.todo-item__complete-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+}
+
+.todo-item__delete-btn{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 15%;
 }
