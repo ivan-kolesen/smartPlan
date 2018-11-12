@@ -130,6 +130,72 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/AddToDoForm/AddToDoForm.scss":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/AddToDoForm/AddToDoForm.scss ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/AddToDoForm/AddToDoForm.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/App/App.scss":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/App/App.scss ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".search-settings {\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: space-around; }\\n\\n.w-40 {\\n  width: 40%; }\\n\\n.w-60 {\\n  width: 60%; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/App/App.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/SearchBar/SearchBar.scss":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/SearchBar/SearchBar.scss ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".input-search {\\n  width: 45%;\\n  height: 38px;\\n  padding: 5px;\\n  border-radius: 5px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/SearchBar/SearchBar.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/SelectBar/SelectBar.scss":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/SelectBar/SelectBar.scss ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".select-category {\\n  width: 45%;\\n  height: 38px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/SelectBar/SelectBar.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/ToDoItem/ToDoItem.scss":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/ToDoItem/ToDoItem.scss ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".todo-item {\\n  display: flex;\\n  flex-direction: row;\\n  margin-bottom: 10px;\\n  padding: 10px;\\n  border: black solid 1px;\\n  border-radius: 5px; }\\n\\n.todo-item_completed {\\n  background-color: #bdffca; }\\n\\n.todo-item__info {\\n  display: flex;\\n  flex-direction: column;\\n  width: 80%; }\\n\\n.info-title {\\n  text-align: center; }\\n\\n.info-category {\\n  text-align: center; }\\n\\n.todo-item__complete-btn {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 10%;\\n  font-size: 24px;\\n  border-left: black solid 1px;\\n  cursor: pointer; }\\n\\n.todo-item__complete-btn:hover {\\n  font-size: 32px;\\n  color: #3ab248;\\n  transition: 300ms; }\\n\\n.todo-item__delete-btn {\\n  justify-content: center;\\n  align-items: center;\\n  display: flex;\\n  width: 10%;\\n  font-size: 24px;\\n  border-left: black solid 1px;\\n  cursor: pointer; }\\n\\n.todo-item__delete-btn:hover {\\n  font-size: 32px;\\n  color: #b22417;\\n  transition: 300ms; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/ToDoItem/ToDoItem.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/ToDoList/ToDoList.scss":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./src/ToDoList/ToDoList.scss ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".todo-items {\\n  width: 100%;\\n  flex-grow: 1;\\n  margin-top: 30px;\\n  overflow: scroll; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/ToDoList/ToDoList.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./styles/style.scss":
 /*!**********************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./styles/style.scss ***!
@@ -137,7 +203,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"Philosopher\\\";\\n  src: url(\" + escape(__webpack_require__(/*! ../fonts/Philosopher-Regular.ttf */ \"./fonts/Philosopher-Regular.ttf\")) + \") format(\\\"truetype\\\");\\n  font-weight: normal; }\\n\\n@font-face {\\n  font-family: \\\"Philosopher\\\";\\n  src: url(\" + escape(__webpack_require__(/*! ../fonts/Philosopher-Bold.ttf */ \"./fonts/Philosopher-Bold.ttf\")) + \") format(\\\"truetype\\\");\\n  font-weight: bold; }\\n\\nbody {\\n  height: 100vh;\\n  font-family: Philosopher; }\\n\\n.wrapper {\\n  display: flex;\\n  flex-direction: column;\\n  max-width: 1000px;\\n  height: 100%;\\n  margin: auto;\\n  padding: 10px 0; }\\n\\nheader {\\n  background-color: #000;\\n  height: 112px; }\\n  header .logo {\\n    color: #FFF;\\n    font-size: 26px;\\n    line-height: 28px;\\n    padding: 26px 0;\\n    width: 25%; }\\n    header .logo span {\\n      font-size: 36px;\\n      font-weight: bold;\\n      background: linear-gradient(140deg, #00b7c1 30%, #d5df27 60%, #3ab248);\\n      -webkit-background-clip: text;\\n      -webkit-text-fill-color: transparent; }\\n\\nmain {\\n  display: flex;\\n  flex-grow: 1;\\n  flex-direction: row; }\\n\\nsection {\\n  display: flex;\\n  flex-direction: column;\\n  margin: 20px; }\\n\\n.w-40 {\\n  width: 40%; }\\n\\n.w-60 {\\n  width: 60%; }\\n\\n.search-settings {\\n  display: flex;\\n  flex-direction: row;\\n  justify-content: space-around; }\\n\\n.input-search {\\n  width: 45%;\\n  height: 38px;\\n  padding: 5px; }\\n\\n.select-category {\\n  width: 45%;\\n  height: 38px; }\\n\\n.todo-items {\\n  width: 100%;\\n  flex-grow: 1;\\n  margin-top: 30px;\\n  overflow: scroll; }\\n\\n.todo-item {\\n  display: flex;\\n  flex-direction: row;\\n  margin-bottom: 10px;\\n  padding: 10px;\\n  border: black solid 1px;\\n  border-radius: 5px; }\\n\\n.todo-item_completed {\\n  background-color: #bdffca; }\\n\\n.todo-item__info {\\n  display: flex;\\n  flex-direction: column;\\n  width: 80%; }\\n\\n.info-title {\\n  text-align: center; }\\n\\n.info-category {\\n  text-align: center; }\\n\\n.todo-item__complete-btn {\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 10%;\\n  font-size: 24px;\\n  border-left: black solid 1px;\\n  cursor: pointer; }\\n\\n.todo-item__complete-btn:hover {\\n  font-size: 32px;\\n  color: #3ab248;\\n  transition: 300ms; }\\n\\n.todo-item__delete-btn {\\n  justify-content: center;\\n  align-items: center;\\n  display: flex;\\n  width: 10%;\\n  font-size: 24px;\\n  border-left: black solid 1px;\\n  cursor: pointer; }\\n\\n.todo-item__delete-btn:hover {\\n  font-size: 32px;\\n  color: #b22417;\\n  transition: 300ms; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./styles/style.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("var escape = __webpack_require__(/*! ../node_modules/css-loader/lib/url/escape.js */ \"./node_modules/css-loader/lib/url/escape.js\");\nexports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"@font-face {\\n  font-family: \\\"Philosopher\\\";\\n  src: url(\" + escape(__webpack_require__(/*! ../fonts/Philosopher-Regular.ttf */ \"./fonts/Philosopher-Regular.ttf\")) + \") format(\\\"truetype\\\");\\n  font-weight: normal; }\\n\\n@font-face {\\n  font-family: \\\"Philosopher\\\";\\n  src: url(\" + escape(__webpack_require__(/*! ../fonts/Philosopher-Bold.ttf */ \"./fonts/Philosopher-Bold.ttf\")) + \") format(\\\"truetype\\\");\\n  font-weight: bold; }\\n\\nbody {\\n  height: 100vh;\\n  font-family: Philosopher; }\\n\\n.wrapper {\\n  display: flex;\\n  flex-direction: column;\\n  max-width: 1000px;\\n  height: 100%;\\n  margin: auto;\\n  padding: 10px 0; }\\n\\nheader {\\n  background-color: #000;\\n  height: 112px; }\\n  header .logo {\\n    color: #FFF;\\n    font-size: 26px;\\n    line-height: 28px;\\n    padding: 26px 0;\\n    width: 25%; }\\n    header .logo span {\\n      font-size: 36px;\\n      font-weight: bold;\\n      background: linear-gradient(140deg, #00b7c1 30%, #d5df27 60%, #3ab248);\\n      -webkit-background-clip: text;\\n      -webkit-text-fill-color: transparent; }\\n\\nmain {\\n  display: flex;\\n  flex-grow: 1;\\n  flex-direction: row; }\\n\\nsection {\\n  display: flex;\\n  flex-direction: column;\\n  margin: 20px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./styles/style.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -196,6 +262,144 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
+/***/ "./src/AddToDoForm/AddToDoForm.js":
+/*!****************************************!*\
+  !*** ./src/AddToDoForm/AddToDoForm.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _AddToDoForm_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AddToDoForm.scss */ \"./src/AddToDoForm/AddToDoForm.scss\");\n/* harmony import */ var _AddToDoForm_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_AddToDoForm_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nclass AddToDoForm{\n  constructor(){\n    this.data;\n  }\n\n  getData(){\n    this.data = JSON.parse(localStorage.getItem(\"toDoList\")) || {};\n  }\n\n  setData(){\n    localStorage.setItem(\"toDoList\", JSON.stringify(this.data));\n  }\n\n  handleAddToDoBtn(){\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('#add-btn').click(() => {\n      const title = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#input-title').val();\n      const category = jquery__WEBPACK_IMPORTED_MODULE_0___default()('#input-category').val();\n      const toDoId = Math.random().toString();\n      if (title && category) {\n        const newToDo = {\n          title: title,\n          category: category,\n          isCompleted: false\n        };\n        this.getData();\n        Object.assign(this.data, {[toDoId]: newToDo});\n        this.setData();\n      };\n    });\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (AddToDoForm);\n\n//# sourceURL=webpack:///./src/AddToDoForm/AddToDoForm.js?");
+
+/***/ }),
+
+/***/ "./src/AddToDoForm/AddToDoForm.scss":
+/*!******************************************!*\
+  !*** ./src/AddToDoForm/AddToDoForm.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./AddToDoForm.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/AddToDoForm/AddToDoForm.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/AddToDoForm/AddToDoForm.scss?");
+
+/***/ }),
+
+/***/ "./src/App/App.js":
+/*!************************!*\
+  !*** ./src/App/App.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _SearchBar_SearchBar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../SearchBar/SearchBar */ \"./src/SearchBar/SearchBar.js\");\n/* harmony import */ var _SelectBar_SelectBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SelectBar/SelectBar */ \"./src/SelectBar/SelectBar.js\");\n/* harmony import */ var _ToDoList_ToDoList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../ToDoList/ToDoList */ \"./src/ToDoList/ToDoList.js\");\n/* harmony import */ var _AddToDoForm_AddToDoForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../AddToDoForm/AddToDoForm */ \"./src/AddToDoForm/AddToDoForm.js\");\n/* harmony import */ var _App_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App.scss */ \"./src/App/App.scss\");\n/* harmony import */ var _App_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_App_scss__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\nclass App{\n  constructor(){\n    this.searchBar = new _SearchBar_SearchBar__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\n    this.selectBar = new _SelectBar_SelectBar__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n    this.addToDoForm = new _AddToDoForm_AddToDoForm__WEBPACK_IMPORTED_MODULE_3__[\"default\"]();\n  }\n\n  init(){\n    this.render();\n    this.addToDoForm.handleAddToDoBtn();\n    this.searchBar.handleInput();\n    this.selectBar.handleSelect();\n  }\n\n  render(){\n    const toDoList = new _ToDoList_ToDoList__WEBPACK_IMPORTED_MODULE_2__[\"default\"](this.selectBar);\n    toDoList.render();\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (App);\n\n//# sourceURL=webpack:///./src/App/App.js?");
+
+/***/ }),
+
+/***/ "./src/App/App.scss":
+/*!**************************!*\
+  !*** ./src/App/App.scss ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./App.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/App/App.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/App/App.scss?");
+
+/***/ }),
+
+/***/ "./src/SearchBar/SearchBar.js":
+/*!************************************!*\
+  !*** ./src/SearchBar/SearchBar.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _SearchBar_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SearchBar.scss */ \"./src/SearchBar/SearchBar.scss\");\n/* harmony import */ var _SearchBar_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_SearchBar_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nclass SearchBar{\n  constructor(){}\n\n  handleInput(){\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".input-search\").keyup(function(){\n      const currentCategoryValue = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".select-category\").val();\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".todo-item\").show();\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()(`.info-title:not(:contains(${this.value}))`).parent().parent().hide();\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()(`.info-category:not(:contains(${currentCategoryValue}))`).parent().parent().hide();\n    })\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SearchBar);\n\n//# sourceURL=webpack:///./src/SearchBar/SearchBar.js?");
+
+/***/ }),
+
+/***/ "./src/SearchBar/SearchBar.scss":
+/*!**************************************!*\
+  !*** ./src/SearchBar/SearchBar.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./SearchBar.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/SearchBar/SearchBar.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/SearchBar/SearchBar.scss?");
+
+/***/ }),
+
+/***/ "./src/SelectBar/SelectBar.js":
+/*!************************************!*\
+  !*** ./src/SelectBar/SelectBar.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _SelectBar_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SelectBar.scss */ \"./src/SelectBar/SelectBar.scss\");\n/* harmony import */ var _SelectBar_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_SelectBar_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nclass SelectBar{\n  constructor(){\n    this.data;\n  }\n\n  getData(){\n    this.data = JSON.parse(localStorage.getItem(\"toDoList\")) || {};\n  }\n\n  handleSelect(){\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()(\"select\").change(function() {\n      const currentInputValue = jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".input-search\").val();\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()(\".todo-item\").show();\n      if(this.value !== \"\") {\n        jquery__WEBPACK_IMPORTED_MODULE_0___default()(`.info-category:not(:contains(${this.value}))`).parent().parent().hide();\n      }\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()(`.info-title:not(:contains(${currentInputValue}))`).parent().parent().hide();\n    });\n  };\n\n  addOptions(){\n    this.getData();\n    const options = [];\n    for (let key in this.data){\n      if(options.indexOf(this.data[key].category) === -1){\n        options.push(this.data[key].category)\n      }\n    }\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.select-category').empty();\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.select-category').append(\"<option value='' selected>all categories</option>\");\n    options.forEach((item) => {\n      jquery__WEBPACK_IMPORTED_MODULE_0___default()('.select-category').append(`<option value=\"${item}\">${item}</option>`);\n    });\n  };\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (SelectBar);\n\n//# sourceURL=webpack:///./src/SelectBar/SelectBar.js?");
+
+/***/ }),
+
+/***/ "./src/SelectBar/SelectBar.scss":
+/*!**************************************!*\
+  !*** ./src/SelectBar/SelectBar.scss ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./SelectBar.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/SelectBar/SelectBar.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/SelectBar/SelectBar.scss?");
+
+/***/ }),
+
+/***/ "./src/ToDoItem/ToDoItem.js":
+/*!**********************************!*\
+  !*** ./src/ToDoItem/ToDoItem.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _ToDoItem_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ToDoItem.scss */ \"./src/ToDoItem/ToDoItem.scss\");\n/* harmony import */ var _ToDoItem_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ToDoItem_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nclass ToDoItem{\n  constructor(key, item){\n    this.key = key;\n    this.item = item;\n  }\n\n  render(){\n    const className = this.item.isCompleted ? \"todo-item todo-item_completed\": \"todo-item\";\n    jquery__WEBPACK_IMPORTED_MODULE_0___default()('.todo-items').append(\n      `<div class=\"${className}\" id=${this.key}>\n            <div class=\"todo-item__info\">\n              <div class=\"info-title\">${this.item.title}</div>\n              <div class=\"info-category\">${this.item.category}</div>\n            </div>\n            <div class=\"todo-item__complete-btn\">✓</div>\n            <div class=\"todo-item__delete-btn\">✗</div>\n        </div>`\n    );\n  }\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ToDoItem);\n\n//# sourceURL=webpack:///./src/ToDoItem/ToDoItem.js?");
+
+/***/ }),
+
+/***/ "./src/ToDoItem/ToDoItem.scss":
+/*!************************************!*\
+  !*** ./src/ToDoItem/ToDoItem.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./ToDoItem.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/ToDoItem/ToDoItem.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/ToDoItem/ToDoItem.scss?");
+
+/***/ }),
+
+/***/ "./src/ToDoList/ToDoList.js":
+/*!**********************************!*\
+  !*** ./src/ToDoList/ToDoList.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ToDoItem_ToDoItem__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../ToDoItem/ToDoItem */ \"./src/ToDoItem/ToDoItem.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _ToDoList_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ToDoList.scss */ \"./src/ToDoList/ToDoList.scss\");\n/* harmony import */ var _ToDoList_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_ToDoList_scss__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nclass ToDoList{\n  constructor(selectBar){\n    this.selectBar = selectBar;\n    this.data;\n  }\n\n  clearCurrentToDoList(){\n    jquery__WEBPACK_IMPORTED_MODULE_1___default()('.todo-items').empty();\n  }\n\n  handleCompleteBtns(){\n    jquery__WEBPACK_IMPORTED_MODULE_1___default()(\".todo-item__complete-btn\").click((e) => {\n      const id = jquery__WEBPACK_IMPORTED_MODULE_1___default()(e.target).parent().attr(\"id\");\n      this.data[id].isCompleted = !this.data[id].isCompleted;\n      this.setData();\n      this.render();\n    });\n  };\n\n  handleDeleteBtns(){\n    jquery__WEBPACK_IMPORTED_MODULE_1___default()(\".todo-item__delete-btn\").click((e) => {\n      const id = jquery__WEBPACK_IMPORTED_MODULE_1___default()(e.target).parent().attr(\"id\");\n      delete this.data[id];\n      this.setData();\n      this.render();\n    });\n  };\n\n  getData(){\n    this.data = JSON.parse(localStorage.getItem(\"toDoList\")) || {};\n  }\n\n  setData(){\n    localStorage.setItem(\"toDoList\", JSON.stringify(this.data));\n  }\n\n  render(){\n    this.getData();\n    this.clearCurrentToDoList();\n    for (let key in this.data) {\n      const toDoItem = new _ToDoItem_ToDoItem__WEBPACK_IMPORTED_MODULE_0__[\"default\"](key, this.data[key]);\n      toDoItem.render();\n    };\n    this.handleCompleteBtns();\n    this.handleDeleteBtns();\n    this.selectBar.addOptions();\n  }\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ToDoList);\n\n//# sourceURL=webpack:///./src/ToDoList/ToDoList.js?");
+
+/***/ }),
+
+/***/ "./src/ToDoList/ToDoList.scss":
+/*!************************************!*\
+  !*** ./src/ToDoList/ToDoList.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./ToDoList.scss */ \"./node_modules/css-loader/index.js!./node_modules/sass-loader/lib/loader.js!./src/ToDoList/ToDoList.scss\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/ToDoList/ToDoList.scss?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -204,7 +408,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/style.scss */ \"./styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\njquery__WEBPACK_IMPORTED_MODULE_2___default()(document).ready(() => {\n\n  renderToDos();\n  handleSelect();\n  handleInput();\n\n\n});\n\nconst handleAddToDoBtn = (toDoList) => {\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()('#add-btn').click((e) => {\n    const title = jquery__WEBPACK_IMPORTED_MODULE_2___default()('#input-title').val();\n    const category = jquery__WEBPACK_IMPORTED_MODULE_2___default()('#input-category').val();\n    const toDoId = Math.random().toString();\n\n    console.log(title, category);\n\n    if (title && category) {\n      const newToDo = {\n        title: title,\n        category: category,\n        isCompleted: false\n      };\n      Object.assign(toDoList, {[toDoId]: newToDo});\n      localStorage.setItem(\"toDoList\", JSON.stringify(toDoList));\n    };\n  });\n};\n\nconst renderToDos = () => {\n  const toDoList = JSON.parse(localStorage.getItem(\"toDoList\")) || {};\n\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()('.todo-items').empty();\n  for (let key in toDoList) {\n    const className = toDoList[key].isCompleted ? \"todo-item todo-item_completed\": \"todo-item\";\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()('.todo-items').append(\n      `<div class=\"${className}\" id=${key}>\n      <div class=\"todo-item__info\">\n        <div class=\"info-title\">${toDoList[key].title}</div>\n        <div class=\"info-category\">${toDoList[key].category}</div>\n      </div>\n      <div class=\"todo-item__complete-btn\">✓</div>\n      <div class=\"todo-item__delete-btn\">✗</div>\n    </div>`\n    );\n  }\n\n  addOptionsToSelect(toDoList);\n  handleAddToDoBtn(toDoList);\n  handleCompleteBtns(toDoList);\n  handleDeleteBtns(toDoList);\n};\n\n\nconst handleCompleteBtns = (toDoList) => {\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".todo-item__complete-btn\").click(function() {\n    const id = jquery__WEBPACK_IMPORTED_MODULE_2___default()(this).parent().attr(\"id\");\n    const newToDoList = {...toDoList};\n    newToDoList[id].isCompleted = !newToDoList[id].isCompleted;\n    localStorage.setItem(\"toDoList\", JSON.stringify(newToDoList));\n    renderToDos();\n  });\n};\n\nconst handleDeleteBtns = (toDoList) => {\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".todo-item__delete-btn\").click(function() {\n    const id = jquery__WEBPACK_IMPORTED_MODULE_2___default()(this).parent().attr(\"id\");\n    const newToDoList = {...toDoList};\n    delete newToDoList[id];\n    localStorage.setItem(\"toDoList\", JSON.stringify(newToDoList));\n    renderToDos();\n  });\n};\n\nconst addOptionsToSelect = (toDoList) => {\n  const options = [];\n  for (let key in toDoList){\n    if(options.indexOf(toDoList[key].category) === -1){\n      options.push(toDoList[key].category)\n    }\n  }\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()('.select-category').empty();\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()('.select-category').append(\"<option value='' selected>all categories</option>\");\n  options.forEach((item) => {\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()('.select-category').append(`<option value=\"${item}\">${item}</option>`);\n  });\n};\n\nconst handleSelect = () => {\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()(\"select\").change(function() {\n    const currentInputValue = jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".input-search\").val();\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".todo-item\").show();\n    if(this.value !== \"\") {\n      jquery__WEBPACK_IMPORTED_MODULE_2___default()(`.info-category:not(:contains(${this.value}))`).parent().parent().hide();\n    }\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()(`.info-title:not(:contains(${currentInputValue}))`).parent().parent().hide();\n  });\n};\n\nconst handleInput = () => {\n  jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".input-search\").keyup(function(){\n    const currentCategoryValue = jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".select-category\").val();\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()(\".todo-item\").show();\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()(`.info-title:not(:contains(${this.value}))`).parent().parent().hide();\n    jquery__WEBPACK_IMPORTED_MODULE_2___default()(`.info-category:not(:contains(${currentCategoryValue}))`).parent().parent().hide();\n  })\n};\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _App_App__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App/App */ \"./src/App/App.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/style.scss */ \"./styles/style.scss\");\n/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(() => {\n  let app = new _App_App__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n  app.init();\n});\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
