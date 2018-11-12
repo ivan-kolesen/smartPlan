@@ -66,17 +66,19 @@ section{
 
 .input-search{
   width: 45%;
+  height: 38px;
   padding: 5px;
 }
 
 .select-category{
   width: 45%;
+  height: 38px;
 }
 
 .todo-items{
   width: 100%;
   flex-grow: 1;
-  padding-top: 15px;
+  margin-top: 30px;
   overflow: scroll;
 }
 
