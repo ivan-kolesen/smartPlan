@@ -7,8 +7,14 @@ const toDoList = JSON.parse(localStorage.getItem("toDoList")) || {};
 $(document).ready(() => {
 
   renderToDos();
+  handleAddToDoBtn();
 
 
+
+
+});
+
+const handleAddToDoBtn = () => {
   $('#add-btn').click((e) => {
     const title = $('#input-title').val();
     const category = $('#input-category').val();
@@ -20,19 +26,20 @@ $(document).ready(() => {
       const newToDo = {
         title: title,
         category: category,
-        issCompleted: false
+        isCompleted: false
       };
       Object.assign(toDoList, {[toDoId]: newToDo});
       localStorage.setItem("toDoList", JSON.stringify(toDoList));
     };
   });
-
-});
+};
 
 const renderToDos = () => {
+  $('.todo-items').empty();
   for (let key in toDoList) {
+    const className = toDoList[key].isCompleted ? "todo-item todo-item_completed": "todo-item";
     $('.todo-items').append(
-      `<div class="todo-item">
+      `<div class="${className}" id=${key}>
       <div class="todo-item__info ">
         <div class="info-name">${toDoList[key].title}</div>
         <div class="info-category">${toDoList[key].category}</div>
@@ -42,4 +49,15 @@ const renderToDos = () => {
     </div>`
     );
   }
+  handleCompleteBtns();
+};
+
+
+const handleCompleteBtns = () => {
+  $(".todo-item__complete-btn").click(function() {
+    const id = $(this).parent().attr("id");
+    toDoList[id].isCompleted = !toDoList[id].isCompleted;
+    localStorage.setItem("toDoList", JSON.stringify(toDoList));
+    renderToDos();
+  });
 };
