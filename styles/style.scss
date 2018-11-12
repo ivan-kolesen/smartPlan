@@ -88,7 +88,7 @@ section{
 .todo-item__info{
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 80%;
 }
 
 .info-name{
@@ -103,12 +103,14 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 10%;
+  font-size: 24px;
 }
 
 .todo-item__delete-btn{
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 15%;
+  width: 10%;
+  font-size: 24px;
 }
