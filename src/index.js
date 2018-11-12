@@ -2,19 +2,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import scss from "../styles/style.scss";
 import $ from "jquery";
 
-const toDoList = JSON.parse(localStorage.getItem("toDoList")) || {};
+
 
 $(document).ready(() => {
 
   renderToDos();
-  handleAddToDoBtn();
-
-
-
 
 });
 
-const handleAddToDoBtn = () => {
+const handleAddToDoBtn = (toDoList) => {
   $('#add-btn').click((e) => {
     const title = $('#input-title').val();
     const category = $('#input-category').val();
@@ -35,6 +31,8 @@ const handleAddToDoBtn = () => {
 };
 
 const renderToDos = () => {
+  const toDoList = JSON.parse(localStorage.getItem("toDoList")) || {};
+
   $('.todo-items').empty();
   for (let key in toDoList) {
     const className = toDoList[key].isCompleted ? "todo-item todo-item_completed": "todo-item";
@@ -49,15 +47,28 @@ const renderToDos = () => {
     </div>`
     );
   }
-  handleCompleteBtns();
+  handleAddToDoBtn(toDoList);
+  handleCompleteBtns(toDoList);
+  handleDeleteBtns(toDoList);
 };
 
 
-const handleCompleteBtns = () => {
+const handleCompleteBtns = (toDoList) => {
   $(".todo-item__complete-btn").click(function() {
     const id = $(this).parent().attr("id");
-    toDoList[id].isCompleted = !toDoList[id].isCompleted;
-    localStorage.setItem("toDoList", JSON.stringify(toDoList));
+    const newToDoList = {...toDoList};
+    newToDoList[id].isCompleted = !newToDoList[id].isCompleted;
+    localStorage.setItem("toDoList", JSON.stringify(newToDoList));
+    renderToDos();
+  });
+};
+
+const handleDeleteBtns = (toDoList) => {
+  $(".todo-item__delete-btn").click(function() {
+    const id = $(this).parent().attr("id");
+    const newToDoList = {...toDoList};
+    delete newToDoList[id];
+    localStorage.setItem("toDoList", JSON.stringify(newToDoList));
     renderToDos();
   });
 };
