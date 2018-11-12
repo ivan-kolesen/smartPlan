@@ -2,12 +2,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import scss from "../styles/style.scss";
 import $ from "jquery";
 
-
-
 $(document).ready(() => {
 
   renderToDos();
   handleSelect();
+  handleInput();
 
 
 });
@@ -39,8 +38,8 @@ const renderToDos = () => {
   for (let key in toDoList) {
     const className = toDoList[key].isCompleted ? "todo-item todo-item_completed": "todo-item";
     $('.todo-items').append(
-      `<div class="${className}" id=${key} category=${toDoList[key].category}>
-      <div class="todo-item__info ">
+      `<div class="${className}" id=${key}>
+      <div class="todo-item__info">
         <div class="info-name">${toDoList[key].title}</div>
         <div class="info-category">${toDoList[key].category}</div>
       </div>
@@ -95,7 +94,15 @@ const handleSelect = () => {
   $("select").change(function() {
     $(".todo-item").show();
     if(this.value !== "") {
-      $(`.todo-item[category!=${this.value}]`).hide();
+      $(`.info-category:not(:contains(${this.value}))`).parent().parent().hide();
     }
   });
+};
+
+const handleInput = () => {
+  console.log("sd");
+  $(".input-search").keyup(function(){
+    $(".todo-item").show();
+    $(`.info-name:not(:contains(${this.value}))`).parent().parent().hide();
+  })
 };
