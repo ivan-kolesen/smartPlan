@@ -40,7 +40,7 @@ const renderToDos = () => {
     $('.todo-items').append(
       `<div class="${className}" id=${key}>
       <div class="todo-item__info">
-        <div class="info-name">${toDoList[key].title}</div>
+        <div class="info-title">${toDoList[key].title}</div>
         <div class="info-category">${toDoList[key].category}</div>
       </div>
       <div class="todo-item__complete-btn">✓</div>
@@ -92,17 +92,20 @@ const addOptionsToSelect = (toDoList) => {
 
 const handleSelect = () => {
   $("select").change(function() {
+    const currentInputValue = $(".input-search").val();
     $(".todo-item").show();
     if(this.value !== "") {
       $(`.info-category:not(:contains(${this.value}))`).parent().parent().hide();
     }
+    $(`.info-title:not(:contains(${currentInputValue}))`).parent().parent().hide();
   });
 };
 
 const handleInput = () => {
-  console.log("sd");
   $(".input-search").keyup(function(){
+    const currentCategoryValue = $(".select-category").val();
     $(".todo-item").show();
-    $(`.info-name:not(:contains(${this.value}))`).parent().parent().hide();
+    $(`.info-title:not(:contains(${this.value}))`).parent().parent().hide();
+    $(`.info-category:not(:contains(${currentCategoryValue}))`).parent().parent().hide();
   })
 };
