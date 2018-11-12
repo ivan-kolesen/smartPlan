@@ -47,6 +47,8 @@ const renderToDos = () => {
     </div>`
     );
   }
+
+  addOptionsToSelect(toDoList);
   handleAddToDoBtn(toDoList);
   handleCompleteBtns(toDoList);
   handleDeleteBtns(toDoList);
@@ -70,5 +72,19 @@ const handleDeleteBtns = (toDoList) => {
     delete newToDoList[id];
     localStorage.setItem("toDoList", JSON.stringify(newToDoList));
     renderToDos();
+  });
+};
+
+const addOptionsToSelect = (toDoList) => {
+  const options = [];
+  for (let key in toDoList){
+    if(options.indexOf(toDoList[key].category) === -1){
+      options.push(toDoList[key].category)
+    }
+  }
+  $('.select-category').empty();
+  $('.select-category').append("<option value='' selected>all categories</option>");
+  options.forEach((item) => {
+    $('.select-category').append(`<option value="${item}">${item}</option>`)
   });
 };
