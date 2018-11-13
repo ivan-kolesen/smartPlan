@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Title</title>
 </head>
 <body>
@@ -9,17 +10,17 @@
   <header class="rounded-top">
     <div class="logo text-right">plan your day<br>be <span>smart</span></div>
   </header>
-  <main class="border border-dark rounded-bottom">
-    <section class="w-60">
-      <h2 class="text-center mb-4">Your todo list for today</h2>
+  <main class="">
+    <section class="avaliable-todo-items">
+      <h2 class="text-center">Your to-do list</h2>
       <div class="search-settings">
         <input class="input-search" placeholder="Search..."/>
         <select class="select-category"></select>
       </div>
       <div class="todo-items"></div>
     </section>
-    <section class="w-40 border-left border-dark pl-5 pr-3">
-      <h2 class="text-center mb-4">Add new todo</h2>
+    <section class="new-todo-item">
+      <h2 class="text-center">Add new task</h2>
       <form class="was-validated text-center">
         <div class="form-group text-left">
           <label for="input-title">Title</label>
@@ -29,7 +30,7 @@
           <label for="input-category">Category</label>
           <input type="text" class="form-control border-dark" id="input-category" name="category" required/>
         </div>
-        <button id="add-btn" type="submit" name="submit" class="btn btn-dark pl-5 pr-5 mt-3">Submit</button>
+        <button id="add-btn" type="submit" name="submit" class="btn btn-dark">Submit</button>
       </form>
     </section>
   </main>

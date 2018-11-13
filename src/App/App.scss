@@ -2,12 +2,31 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 10px 0 0 ;
 }
 
-.w-40{
+.new-todo-item{
   width: 40%;
+  background-color: #efefef;
 }
 
-.w-60{
+.avaliable-todo-items{
   width: 60%;
+}
+
+@media (max-width: 576px) {
+  .search-settings{
+    padding: 20px;
+  }
+
+  .new-todo-item{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .avaliable-todo-items{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
 }

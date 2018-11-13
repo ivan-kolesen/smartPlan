@@ -19,10 +19,15 @@
 
 .info-title{
   text-align: center;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .info-category{
   text-align: center;
+  font-size: 14px;
+  color: #b1b1b1;
 }
 
 .todo-item__complete-btn{
@@ -55,4 +60,32 @@
   font-size: 32px;
   color: #b22417;
   transition: 300ms;
+}
+
+@media (max-width: 576px) {
+  .todo-item__info{
+    width: 70%;
+  }
+
+  .todo-item__complete-btn{
+    width: 15%;
+  }
+
+  .todo-item__delete-btn{
+    width: 15%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .todo-item__info{
+    width: 70%;
+  }
+
+  .todo-item__complete-btn{
+    width: 15%;
+  }
+
+  .todo-item__delete-btn{
+    width: 15%;
+  }
 }
