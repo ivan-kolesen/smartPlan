@@ -8,9 +8,3 @@ $(document).ready(() => {
   let app = new App();
   app.init();
 });
-
-
-
-
-
-

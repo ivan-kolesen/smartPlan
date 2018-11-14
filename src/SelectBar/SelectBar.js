@@ -2,36 +2,44 @@ import $ from "jquery";
 import "./SelectBar.scss";
 import { getData } from "../api/dataTransfer";
 
-class SelectBar{
-  constructor(){
+class SelectBar {
+  constructor() {
     this.data;
   }
 
-  handleSelect(){
+  handleSelect() {
     $("select").change(function() {
       const currentInputValue = $(".input-search").val();
       $(".todo-item").show();
-      if(this.value !== "") {
-        $(`.info-category:not(:contains(${this.value}))`).parent().parent().hide();
+      if (this.value !== "") {
+        $(`.info-category:not(:contains(${this.value}))`)
+          .parent()
+          .parent()
+          .hide();
       }
-      $(`.info-title:not(:contains(${currentInputValue}))`).parent().parent().hide();
+      $(`.info-title:not(:contains(${currentInputValue}))`)
+        .parent()
+        .parent()
+        .hide();
     });
-  };
+  }
 
-  addOptions(){
+  addOptions() {
     this.data = getData();
     const options = [];
-    for (let key in this.data){
-      if(options.indexOf(this.data[key].category) === -1){
-        options.push(this.data[key].category)
+    for (let key in this.data) {
+      if (options.indexOf(this.data[key].category) === -1) {
+        options.push(this.data[key].category);
       }
     }
-    $('.select-category').empty();
-    $('.select-category').append("<option value='' selected>all categories</option>");
-    options.forEach((item) => {
-      $('.select-category').append(`<option value="${item}">${item}</option>`);
+    $(".select-category").empty();
+    $(".select-category").append(
+      "<option value='' selected>all categories</option>"
+    );
+    options.forEach(item => {
+      $(".select-category").append(`<option value="${item}">${item}</option>`);
     });
-  };
+  }
 }
 
 export default SelectBar;
