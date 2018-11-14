@@ -44,6 +44,7 @@ main{
   flex-direction: row;
   border: #000000 solid 1px;
   border-radius: 0 0 5px 5px;
+  overflow: hidden;
 }
 
 section{
@@ -57,7 +58,7 @@ form{
   margin: 20px auto;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 576px){
   body{
     height: auto;
   }
@@ -112,6 +113,12 @@ form{
   form{
     width: 90%;
     margin: 10px auto;
+  }
+}
+
+@media (max-width: 992px) and (orientation: landscape){
+  body{
+    height: auto;
   }
 }
 
