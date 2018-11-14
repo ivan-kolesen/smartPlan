@@ -1,13 +1,10 @@
 import $ from "jquery";
 import "./SelectBar.scss";
+import { getData } from "../api/dataTransfer";
 
 class SelectBar{
   constructor(){
     this.data;
-  }
-
-  getData(){
-    this.data = JSON.parse(localStorage.getItem("toDoList")) || {};
   }
 
   handleSelect(){
@@ -22,7 +19,7 @@ class SelectBar{
   };
 
   addOptions(){
-    this.getData();
+    this.data = getData();
     const options = [];
     for (let key in this.data){
       if(options.indexOf(this.data[key].category) === -1){

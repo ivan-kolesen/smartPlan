@@ -1,17 +1,10 @@
 import $ from "jquery";
 import "./AddToDoForm.scss";
+import { getData, setData } from "../api/dataTransfer";
 
 class AddToDoForm{
   constructor(){
     this.data;
-  }
-
-  getData(){
-    this.data = JSON.parse(localStorage.getItem("toDoList")) || {};
-  }
-
-  setData(){
-    localStorage.setItem("toDoList", JSON.stringify(this.data));
   }
 
   handleAddToDoBtn(){
@@ -25,9 +18,9 @@ class AddToDoForm{
           category: category,
           isCompleted: false
         };
-        this.getData();
-        Object.assign(this.data, {[toDoId]: newToDo});
-        this.setData();
+        this.data = getData();
+        const newData = Object.assign(this.data, {[toDoId]: newToDo});
+        setData(newData);
       };
     });
   };
