@@ -9,10 +9,13 @@ class SelectBar {
 
   handleSelect() {
     $("select").change(function() {
+      const selectedCategory = this.value;
       const currentInputValue = $(".input-search").val();
       $(".todo-item").show();
-      if (this.value !== "") {
-        $(`.info-category:not(:contains(${this.value}))`)
+      if (selectedCategory !== "") {
+        $(`.info-category`).filter(function(){
+          return $(this).text() !== selectedCategory;
+        })
           .parent()
           .parent()
           .hide();
