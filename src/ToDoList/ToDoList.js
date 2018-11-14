@@ -20,7 +20,9 @@ class ToDoList {
         .attr("id");
       this.data[id].isCompleted = !this.data[id].isCompleted;
       setData(this.data);
-      this.render();
+      $(e.target)
+        .parent()
+        .toggleClass("todo-item_completed");
     });
   }
 
@@ -31,7 +33,10 @@ class ToDoList {
         .attr("id");
       delete this.data[id];
       setData(this.data);
-      this.render();
+      $(e.target)
+        .parent()
+        .remove();
+      this.selectBar.addOptions();
     });
   }
 
