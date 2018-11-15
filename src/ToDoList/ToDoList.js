@@ -20,9 +20,7 @@ class ToDoList {
         .attr("id");
       this.data[id].isCompleted = !this.data[id].isCompleted;
       setData(this.data);
-      $(e.target)
-        .parent()
-        .toggleClass("todo-item_completed");
+      this.render();
     });
   }
 
@@ -33,10 +31,7 @@ class ToDoList {
         .attr("id");
       delete this.data[id];
       setData(this.data);
-      $(e.target)
-        .parent()
-        .remove();
-      this.selectBar.addOptions();
+      this.render();
     });
   }
 
@@ -44,7 +39,12 @@ class ToDoList {
     this.data = getData();
     this.clearCurrentToDoList();
     for (let key in this.data) {
-      const toDoItem = new ToDoItem(key, this.data[key]);
+      let isDisplay = true;
+      if(this.selectBar.selected && this.selectBar.selected !== this.data[key].category){
+        console.log("1");
+        isDisplay = false;
+      }
+      const toDoItem = new ToDoItem(key, this.data[key], isDisplay);
       toDoItem.render();
     }
     this.handleCompleteBtns();

@@ -1,19 +1,21 @@
 import $ from "jquery";
 import "./SelectBar.scss";
-import { getData } from "../api/dataTransfer";
+import {getData} from "../api/dataTransfer";
 
 class SelectBar {
   constructor() {
     this.data;
+    this.selected = "";
   }
 
   handleSelect() {
-    $("select").change(function() {
-      const selectedCategory = this.value;
+    $("select").change((e) => {
+      this.selected = e.target.value;
       const currentInputValue = $(".input-search").val();
       $(".todo-item").show();
-      if (selectedCategory !== "") {
-        $(`.info-category`).filter(function(){
+      if (this.selected !== "") {
+        const selectedCategory = this.selected;
+        $(`.info-category`).filter(function () {
           return $(this).text() !== selectedCategory;
         })
           .parent()
@@ -37,10 +39,11 @@ class SelectBar {
     }
     $(".select-category").empty();
     $(".select-category").append(
-      "<option value='' selected>all categories</option>"
+      "<option value=''>all categories</option>"
     );
     options.forEach(item => {
-      $(".select-category").append(`<option value="${item}">${item}</option>`);
+      const attr = (this.selected === item ? "selected" : "");
+      $(".select-category").append(`<option value="${item}" ${attr}>${item}</option>`);
     });
   }
 }
